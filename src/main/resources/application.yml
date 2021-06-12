@@ -1,0 +1,12 @@
+
+
+server:
+  port: 8089
+spring:
+  data:
+    mongodb:
+      uri: "mongodb+srv://spring_wrist_app:8QQ5ftSQkvBorD8T@wrist-app.bvbov.mongodb.net/wrist_app_db?retryWrites=true&w=majority"
+
+logging:
+  level:
+    org.springframework: DEBUG

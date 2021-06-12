@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      #uri: "mongodb://192.168.0.248:27017/wrist_app_db"
+      uri: "mongodb://localhost:27017/wrist_app_db"

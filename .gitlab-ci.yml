@@ -1,0 +1,9 @@
+image: gradle:7.0-jdk11
+
+stages:
+  - package
+
+package_dev:
+  stage: package
+  script:
+    - gradle -Djib.to.auth.username=gitlab-ci-token -Djib.to.auth.password=$CI_JOB_TOKEN jib
